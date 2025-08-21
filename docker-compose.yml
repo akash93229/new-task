@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+   frontend:
+     images: kartik61/hrms-frontend:latest
+      ports:
+        - "3000:80"
